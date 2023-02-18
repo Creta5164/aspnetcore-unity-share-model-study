@@ -1,0 +1,18 @@
+apiRules:
+- include:
+    uidRegex: ^Global
+    type: Namespace
+- include:
+    uidRegex: ^ClientLogic
+    type: Namespace
+- include:
+    uidRegex: ^DataLib
+    type: Namespace
+- exclude:
+    uidRegex: .*
+    type: Namespace
+attributeRules:
+- exclude:
+    uidRegex: Obsolete
+- exclude:
+    uidRegex: Tooltip

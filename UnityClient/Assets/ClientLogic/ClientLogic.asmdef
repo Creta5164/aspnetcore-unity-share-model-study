@@ -1,0 +1,19 @@
+{
+    "name": "ClientLogic",
+    "rootNamespace": "",
+    "references": [
+        "GUID:324caed91501a9c47a04ebfd87b68794"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "DataLib.dll",
+        "Newtonsoft.Json.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

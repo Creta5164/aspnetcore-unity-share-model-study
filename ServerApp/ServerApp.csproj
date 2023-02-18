@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <!--csproj 프로젝트를 참조하여 데이터 라이브러리(DataLib) 연결-->
+    <!--Connect the data library(DataLib) by referencing the csproj project-->
+    <ProjectReference Include="../DataLib/DataLib.csproj">
+      <Name>DataLib</Name>
+    </ProjectReference>
+    <!--또는 dll을 직접적으로 참조하여 연결-->
+    <!--Or link by directly referencing the dll-->
+    <!--
+    <Reference Include="../<DataLib 빌드 결과물 경로|DataLib build output path>/*.dll">
+      <Private>true</Private>
+    </Reference>
+    -->
+  </ItemGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.3">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.3" />
+  </ItemGroup>
+  
+</Project>

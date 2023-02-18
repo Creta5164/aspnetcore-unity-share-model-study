@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  
+  <PropertyGroup>
+    <!--최신 문법... 유니티에서도 쓰고 싶다...-->
+    <!--The latest grammar... I want to use it in Unity too...-->
+    <LangVersion>11</LangVersion>
+    <!--프로젝트 버전을 .NET standard 2.0으로 설정-->
+    <!--Set project version to .NET standard 2.0-->
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    <!--CoreCLR에 있는 빌트인 라이브러리 중에는 Framework에 없는 경우가 있기 때문에 ImplicitUsings 비활성화-->
+    <!--Disable ImplicitUsings because some of the built-in libraries in CoreCLR are not in Framework-->
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <!--빌드 명령을 실행하면 자동으로 빌드 된 출력물을 유니티에서 쓸 수 있게 후처리 활성화-->
+    <!--Enables post-processing so that the output built automatically can be used in Unity when the build command is executed.-->
+    <PostBuildEventUseInBuild>true</PostBuildEventUseInBuild>
+  </PropertyGroup>
+  
+  <!--데이터에 DB 메타성 어트리뷰트 라이브러리-->
+  <!--DB metaness attribute library to data-->
+  <ItemGroup>
+    <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
+  </ItemGroup>
+   
+  <!--빌드 결과물을 Unity 에셋 디렉토리 안에 프로젝트 이름으로 된 디렉토리로 복사-->
+  <!--Copy the build outputs to a directory named this project's name inside the Unity assets directory.-->
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <ItemGroup>
+      <Assets Include="$(OutDir)/**/*.*" />
+      <Assets Remove="$(OutDir)/**/*.pdb" />
+      <Assets Remove="$(OutDir)/**/*.json" />
+      <!--TODO : 여기에 추가 파일 유형 정리하기-->
+      <!--TODO : Organize additional file types here-->
+    </ItemGroup>
+    <Copy SourceFiles="@(Assets)" DestinationFiles="../UnityClient/Assets/$(ProjectName)/%(RecursiveDir)%(Filename)%(Extension)" />
+  </Target>
+  
+</Project>

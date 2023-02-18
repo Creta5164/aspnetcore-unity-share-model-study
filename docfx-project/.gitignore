@@ -1,0 +1,18 @@
+# DocFX generated files
+/**/DROP/
+/**/TEMP/
+/**/packages/
+/**/bin/
+/**/obj/
+_site
+
+# DocFX metadata files
+data/.manifest
+data/*.yml
+data/**/*.yml
+server/.manifest
+server/*.yml
+server/**/*.yml
+client/.manifest
+client/*.yml
+client/**/*.yml

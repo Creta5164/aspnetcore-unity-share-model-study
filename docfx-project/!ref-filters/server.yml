@@ -1,0 +1,21 @@
+apiRules:
+- include:
+    uidRegex: ^Global
+    type: Namespace
+- exclude:
+    uidRegex: ServerApp.Migrations
+    type: Namespace
+- include:
+    uidRegex: ^ServerApp
+    type: Namespace
+- include:
+    uidRegex: ^DataLib
+    type: Namespace
+- exclude:
+    uidRegex: .*
+    type: Namespace
+attributeRules:
+- exclude:
+    uidRegex: Obsolete
+- exclude:
+    uidRegex: Tooltip
