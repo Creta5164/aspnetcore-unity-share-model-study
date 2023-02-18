@@ -55,6 +55,7 @@ artifacts/
 # ignore reverted cause unity use this.
 # *.meta
 *.obj
+*.obj.meta
 *.pch
 *.pdb
 *.pgc

@@ -4,7 +4,8 @@
 /**/packages/
 /**/bin/
 /**/obj/
-_site
+# I eventually give up for setting up with Unity on GitHub Actions :(
+# _site
 
 # DocFX metadata files
 data/.manifest

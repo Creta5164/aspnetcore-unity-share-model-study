@@ -1,6 +1,7 @@
 # ASP.NET Core의 EF Core와 Unity 양방향 데이터 처리 스터디
 
-[블로그 글][blog-ko] [문서][doc]
+- [📒블로그 글][blog-ko]
+- [📘문서][doc]
 
 이 저장소는 제 지인과 함께 데이터 관리를 위한 서버 백엔드 스터디를 위해 공부한 내용입니다.
 
@@ -16,7 +17,8 @@
 
 # ASP.NET Core's EF Core and Unity Bidirectional Data Processing Study
 
-[Blog post (Korean)][blog-ko] [Documentation][doc]
+- [📒Blog post (Korean)][blog-ko]
+- [📘Documentation][doc]
 
 This repository is what I studied for a server backend study for data management with my acquaintances.
 
