@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>ASP.NET Core의 EF Core와 Unity 양방향 데이터 처리 스터디 | efcore-unity-cross-protocol-study </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="ASP.NET Core의 EF Core와 Unity 양방향 데이터 처리 스터디 | efcore-unity-cross-protocol-study ">
+    
+      <link rel="shortcut icon" href="favicon.ico">
+      <link rel="stylesheet" href="styles/docfx.vendor.css">
+      <link rel="stylesheet" href="styles/docfx.css">
+      <link rel="stylesheet" href="styles/main.css">
+      <meta property="docfx:navrel" content="toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="">
+    <meta property="docfx:newtab" content="true">
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="index.html">
+                <img id="logo" class="svg" src="logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="aspnet-core의-ef-core와-unity-양방향-데이터-처리-스터디">ASP.NET Core의 EF Core와 Unity 양방향 데이터 처리 스터디</h1>
+
+<p><a href="https://blog.naver.com/hd3306/223020370206">블로그 글</a> <a href="https://github.com/creta5164/aspnetcore-unity-share-model-study">GitHub</a></p>
+<p>이 저장소는 제 지인과 함께 데이터 관리를 위한 서버 백엔드 스터디를 위해 공부한 내용입니다.</p>
+<ul>
+<li>서버와 클라이언트가 서로 약속한 데이터 규약 준비 =&gt; <code>DataLib</code> 프로젝트</li>
+<li>ASP.NET Core에서 EF core 쓰는 법 =&gt; <code>ServerApp</code> 프로젝트
+<ul>
+<li><code>DataLib</code>을 활용해 DB 테이블 구축</li>
+<li>연습이라 DB를 <code>sqlite</code>로 사용했기 때문에 배열을 DB에 넣을 수 없었음</li>
+</ul>
+</li>
+<li>유니티(클라이언트)에서 <code>DataLib</code>을 가져와 서버와 REST API 통신 =&gt; <code>UnityClient</code>
+<ul>
+<li><code>DataLib</code>에서 <code>dotnet build</code> 명령을 내리면 유니티 에셋 폴더에 빌드 파일을 복사하도록 지시</li>
+<li>서버와 통신하는 것을 확인</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h1 id="aspnet-cores-ef-core-and-unity-bidirectional-data-processing-study">ASP.NET Core's EF Core and Unity Bidirectional Data Processing Study</h1>
+<p><a href="https://blog.naver.com/hd3306/223020370206">Blog post (Korean)</a> <a href="https://github.com/creta5164/aspnetcore-unity-share-model-study">GitHub</a></p>
+<p>This repository is what I studied for a server backend study for data management with my acquaintances.</p>
+<ul>
+<li>Prepare the data protocols promised by the server and client =&gt; <code>DataLib</code> project</li>
+<li>How to use EF core in ASP.NET Core =&gt; <code>ServerApp</code> project
+<ul>
+<li>Build DB table using <code>DataLib</code></li>
+<li>I couldn't put the array into the DB because I used the DB as <code>sqlite</code> for practice.</li>
+</ul>
+</li>
+<li>Import <code>DataLib</code> from Unity (client) and communicate REST API with server =&gt; <code>UnityClient</code>
+<ul>
+<li>Commanding <code>dotnet build</code> in <code>DataLib</code> tells it to copy build files to the Unity Assets folder.</li>
+<li>Check communication with the server</li>
+</ul>
+</li>
+</ul>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Creta5164/aspnetcore-unity-share-model-study/blob/actions-test/docfx-project/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      efcore-unity-cross-protocol-study<br>Generated by <strong>DocFX</strong>
+      
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="styles/docfx.js"></script>
+    <script type="text/javascript" src="styles/main.js"></script>
+  </body>
+</html>

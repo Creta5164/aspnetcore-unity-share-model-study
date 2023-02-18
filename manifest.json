@@ -1,0 +1,281 @@
+{
+  "homepages": [],
+  "source_base_path": "E:/- Extra repos/aspnetcore-unity-share-model-study/docfx-project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "client/ClientLogic.Client.yml",
+      "output": {
+        ".html": {
+          "relative_path": "client/ClientLogic.Client.html",
+          "hash": "iFdMz81ioWF3Ms/ooTGmg/1g8uQnE5fzEMYVuw2RBeI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "client/ClientLogic.DataLibExtensions.InventoryClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "client/ClientLogic.DataLibExtensions.InventoryClient.html",
+          "hash": "YHGnAtYoOv5im7LceOC2/zmPkFCvl2W3WTBSOPHlTus="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "client/ClientLogic.DataLibExtensions.InventoryItemArrayExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "client/ClientLogic.DataLibExtensions.InventoryItemArrayExtensions.html",
+          "hash": "mjz0LRB0FjZEFoFvIriQv12YZTFDdqTpKfkO5rdFudM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "client/ClientLogic.DataLibExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "client/ClientLogic.DataLibExtensions.html",
+          "hash": "KoqSYUzJbZDDJuNB45ly/di6tuKH+6typXx2zTebEOc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "client/ClientLogic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "client/ClientLogic.html",
+          "hash": "DuAE7MitAZ+e4W0vF2YeetKp685yhRsVTPoz9FhbuSI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "client/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "client/toc.html",
+          "hash": "hD6VRXt73Zut4FtuPVQ8isjPHzFz1UjuzKeghqWPsIA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "data/DataLib.Inventory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "data/DataLib.Inventory.html",
+          "hash": "gqwxBqGhx7Xz6/tA9iPtQMmHd76PtxceHzXS7dfIpns="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "data/DataLib.RegisterUserResults.yml",
+      "output": {
+        ".html": {
+          "relative_path": "data/DataLib.RegisterUserResults.html",
+          "hash": "R2SsWG8VKjwSFA4ePJpLFgy+j/NQMHwzZN5Leb+3mS0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "data/DataLib.UserData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "data/DataLib.UserData.html",
+          "hash": "EwsgEuJGkRat0xQiGnaigy4iNUFWb2AeIbyuHZ02JE8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "data/DataLib.yml",
+      "output": {
+        ".html": {
+          "relative_path": "data/DataLib.html",
+          "hash": "+tpIM6PKKFI0vNZy/ZbvVrB5jtaigmag4zykm+CS/Ws="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "data/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "data/toc.html",
+          "hash": "tNlJACkbXPKdk4OBYLMjDjrM46lMu4sGJNUMwnZLld8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "5H0tY3o2cKYuPZ9+DP4l9Fck7CAxTbpotsDUybMkxAs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "server/ServerApp.Database.DataLibContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/ServerApp.Database.DataLibContext.html",
+          "hash": "zJZ2vPnuo70RYkPg1WwmnDah18cV4DwNBnbxtftT9G0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "server/ServerApp.Database.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/ServerApp.Database.html",
+          "hash": "HCZH5aiGLT2ggKMYNULSr7+NIPzACOVjUOKrfCtYFxA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "server/ServerApp.Program.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/ServerApp.Program.html",
+          "hash": "/iGLYa0/tJcvpYgJhuXIoBBL2b6A+84vbSzD+kYpht0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "server/ServerApp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/ServerApp.html",
+          "hash": "h7rpup6NS6f1DzZrYKNf24qIhfzMo4yZhB4m5jwjurQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "server/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "server/toc.html",
+          "hash": "/kd2ko34zbc7XaRt+jTs6pSEJ2BT1hdl4NRqrKflAqI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "na4Sf8MjHdwIbXX5cBcKF/OFpYSfo4Iv/TcypfGmMc4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because config changed.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "ConfigChanged"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 1,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 13,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

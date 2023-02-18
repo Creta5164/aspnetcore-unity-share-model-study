@@ -1,0 +1,294 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class InventoryClient
+ | efcore-unity-cross-protocol-study </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class InventoryClient
+ | efcore-unity-cross-protocol-study ">
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    <meta property="docfx:newtab" content="true">
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="ClientLogic.DataLibExtensions.InventoryClient">
+
+
+  <h1 id="ClientLogic_DataLibExtensions_InventoryClient" data-uid="ClientLogic.DataLibExtensions.InventoryClient" class="text-break">Class InventoryClient
+</h1>
+  <div class="markdown level0 summary"><p>확장 메서드 대신 데이터 타입 클래스로부터 상속받아 추가 기능을 구현한 <a class="xref" href="../data/DataLib.Inventory.html">Inventory</a>의 데이터 클래스<p></p>
+Data class of <a class="xref" href="../data/DataLib.Inventory.html">Inventory</a> that implements additional functions by inheriting from data type class instead of extension method
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level1"><span class="xref">InventoryClient</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="ClientLogic.html">ClientLogic</a>.<a class="xref" href="ClientLogic.DataLibExtensions.html">DataLibExtensions</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="ClientLogic_DataLibExtensions_InventoryClient_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class InventoryClient : Inventory</code></pre>
+  </div>
+  <h5 id="ClientLogic_DataLibExtensions_InventoryClient_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>서버에서 사용하는 동일 타입의 데이터 클래스는 이를 모르기 때문에,
+새로 정의하는 필드 및 속성값은 필요한 경우가 아니라면 반드시 직렬화가 되지 않도록 만들어야 합니다.<p></p>
+자세한 내용은 <a class="xref" href="ClientLogic.Client.html#ClientLogic_Client_RegisterUser">RegisterUser()</a>의 주석을 확인하세요.<p></p>
+Since the data classes of the same type used by the server do not know this,
+so newly defined field and property values must be made non-serializable unless necessary.<p></p>
+Check comments on <a class="xref" href="ClientLogic.Client.html#ClientLogic_Client_RegisterUser">RegisterUser()</a> for details.
+</div>
+  <h3 id="constructors">Constructors
+</h3>
+
+
+  <a id="ClientLogic_DataLibExtensions_InventoryClient__ctor_" data-uid="ClientLogic.DataLibExtensions.InventoryClient.#ctor*"></a>
+  <h4 id="ClientLogic_DataLibExtensions_InventoryClient__ctor_Inventory_" data-uid="ClientLogic.DataLibExtensions.InventoryClient.#ctor(Inventory)">InventoryClient(Inventory)</h4>
+  <div class="markdown level1 summary"><p>약속한 데이터 타입 <a class="xref" href="../data/DataLib.Inventory.html">Inventory</a>으로부터 데이터를 적용합니다.<p></p>
+Apply from the promised data type <a class="xref" href="../data/DataLib.Inventory.html">Inventory</a>.
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public InventoryClient(Inventory source)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Inventory</span></td>
+        <td><span class="parametername">source</span></td>
+        <td><p>원본 데이터 / Source data</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ClientLogic_DataLibExtensions_InventoryClient__ctor_Inventory__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>서버에서 사용하는 동일 타입의 데이터 클래스는 이를 모르기 때문에,
+새로 정의하는 필드 및 속성값은 필요한 경우가 아니라면 반드시 직렬화가 되지 않도록 만들어야 합니다.<p></p>
+자세한 내용은 <a class="xref" href="ClientLogic.Client.html#ClientLogic_Client_RegisterUser">RegisterUser()</a>의 주석을 확인하세요.<p></p>
+Since the data classes of the same type used by the server do not know this,
+so newly defined field and property values must be made non-serializable unless necessary.<p></p>
+Check comments on <a class="xref" href="ClientLogic.Client.html#ClientLogic_Client_RegisterUser">RegisterUser()</a> for details.
+</div>
+  <h3 id="properties">Properties
+</h3>
+
+
+  <a id="ClientLogic_DataLibExtensions_InventoryClient_Items_" data-uid="ClientLogic.DataLibExtensions.InventoryClient.Items*"></a>
+  <h4 id="ClientLogic_DataLibExtensions_InventoryClient_Items" data-uid="ClientLogic.DataLibExtensions.InventoryClient.Items">Items</h4>
+  <div class="markdown level1 summary"><p><a class="xref" href="../data/DataLib.Inventory.html#DataLib_Inventory_Items">Items</a> 속성을 JSON 직렬화/역직렬화로 재정의한 속성입니다.<p></p>
+Overriding the <a class="xref" href="../data/DataLib.Inventory.html#DataLib_Inventory_Items">Items</a> property to JSON serialize/deserialize.
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string[] Items { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</td>
+        <td><p><a class="xref" href="../data/DataLib.Inventory.html#DataLib_Inventory_Items">Items</a>에서 파싱된 <span class="xref">string[]</span>값<p></p>
+<span class="xref">string[]</span> value parsed from <a class="xref" href="../data/DataLib.Inventory.html#DataLib_Inventory_Items">Items</a>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ClientLogic_DataLibExtensions_InventoryClient_Items_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a href="https://www.newtonsoft.com/json/help/html/SerializationCallbacks.htm">https://www.newtonsoft.com/json/help/html/SerializationCallbacks.htm</a></p>
+</div>
+  <h3 id="methods">Methods
+</h3>
+
+
+  <a id="ClientLogic_DataLibExtensions_InventoryClient_OnDeserializedMethod_" data-uid="ClientLogic.DataLibExtensions.InventoryClient.OnDeserializedMethod*"></a>
+  <h4 id="ClientLogic_DataLibExtensions_InventoryClient_OnDeserializedMethod_StreamingContext_" data-uid="ClientLogic.DataLibExtensions.InventoryClient.OnDeserializedMethod(StreamingContext)">OnDeserializedMethod(StreamingContext)</h4>
+  <div class="markdown level1 summary"><p>Newtonsoft.Json에서 <a class="xref" href="../data/DataLib.Inventory.html">Inventory</a>를 역직렬화 할 때,
+JSON으로 직렬화 되어있는(약속한 타입) <a class="xref" href="../data/DataLib.Inventory.html#DataLib_Inventory_Items">Items</a> 문자열을 <span class="xref">DataLib.InventoryClient.Items</span>에 역직렬화하여 넣습니다.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnDeserializedMethod(StreamingContext context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">StreamingContext</span></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ClientLogic_DataLibExtensions_InventoryClient_OnDeserializedMethod_StreamingContext__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>서버에서 사용하는 동일 타입의 데이터 클래스는 이를 모르기 때문에,
+새로 정의하는 필드 및 속성값은 필요한 경우가 아니라면 반드시 직렬화가 되지 않도록 만들어야 합니다.<p></p>
+자세한 내용은 <a class="xref" href="ClientLogic.Client.html#ClientLogic_Client_RegisterUser">RegisterUser()</a>의 주석을 확인하세요.<p></p>
+Since the data classes of the same type used by the server do not know this,
+so newly defined field and property values must be made non-serializable unless necessary.<p></p>
+Check comments on <a class="xref" href="ClientLogic.Client.html#ClientLogic_Client_RegisterUser">RegisterUser()</a> for details.
+</div>
+
+
+  <a id="ClientLogic_DataLibExtensions_InventoryClient_OnSerializingMethod_" data-uid="ClientLogic.DataLibExtensions.InventoryClient.OnSerializingMethod*"></a>
+  <h4 id="ClientLogic_DataLibExtensions_InventoryClient_OnSerializingMethod_StreamingContext_" data-uid="ClientLogic.DataLibExtensions.InventoryClient.OnSerializingMethod(StreamingContext)">OnSerializingMethod(StreamingContext)</h4>
+  <div class="markdown level1 summary"><p>Newtonsoft.Json에서 <span class="xref">DataLib.InventoryClient</span>를 직렬화 할 때,
+<span class="xref">DataLib.InventoryClient.Items</span>배열을 <a class="xref" href="../data/DataLib.Inventory.html#DataLib_Inventory_Items">Items</a>에 직렬화하여 넣습니다.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnSerializingMethod(StreamingContext context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">StreamingContext</span></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="ClientLogic_DataLibExtensions_InventoryClient_OnSerializingMethod_StreamingContext__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>서버에서 사용하는 동일 타입의 데이터 클래스는 이를 모르기 때문에,
+새로 정의하는 필드 및 속성값은 필요한 경우가 아니라면 반드시 직렬화가 되지 않도록 만들어야 합니다.<p></p>
+자세한 내용은 <a class="xref" href="ClientLogic.Client.html#ClientLogic_Client_RegisterUser">RegisterUser()</a>의 주석을 확인하세요.<p></p>
+Since the data classes of the same type used by the server do not know this,
+so newly defined field and property values must be made non-serializable unless necessary.<p></p>
+Check comments on <a class="xref" href="ClientLogic.Client.html#ClientLogic_Client_RegisterUser">RegisterUser()</a> for details.
+</div>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      efcore-unity-cross-protocol-study<br>Generated by <strong>DocFX</strong>
+      
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
