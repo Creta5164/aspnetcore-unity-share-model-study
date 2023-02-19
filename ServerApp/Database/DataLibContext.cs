@@ -18,7 +18,7 @@ public class DataLibContext : DbContext {
     /// <see cref="UserData"/> 테이블<para/>
     /// Table of <see cref="UserData"/>
     /// </summary>
-    public DbSet<UserData> ?Users { get; set; }
+    public DbSet<UserData>? Users { get; set; }
     
     protected override void OnConfiguring(DbContextOptionsBuilder builder) {
         

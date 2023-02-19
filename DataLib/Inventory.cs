@@ -30,5 +30,5 @@ public class Inventory {
     /// 아이템 ID 문자열 배열<para/>
     /// Array of item id strings in JSON<para/>
     /// </value>
-    public string ?Items { get; set; }
+    public string? Items { get; set; }
 }

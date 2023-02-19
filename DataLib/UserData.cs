@@ -16,7 +16,7 @@ public class UserData {
     /// Nickname string
     /// </value>
     [Key]
-    public virtual string ?Name { get; set; }
+    public virtual string? Name { get; set; }
     
     /// <summary>
     /// 레벨<para/>
@@ -36,5 +36,5 @@ public class UserData {
     /// <see cref="DataLib.Inventory"/> 테이블 내에 참조된 열<para/>
     /// Referenced row in <see cref="DataLib.Inventory"/> table
     /// </value>
-    public Inventory ?Inventory { get; set; }
+    public Inventory? Inventory { get; set; }
 }
