@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Users/creta/Documents/- Extra repos/aspnetcore-unity-share-model-study/docfx-project",
+  "source_base_path": "E:/- Extra repos/aspnetcore-unity-share-model-study/docfx-project",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -9,7 +9,8 @@
         "resource": {
           "relative_path": "index.json"
         }
-      }
+      },
+      "is_incremental": false
     },
     {
       "type": "ManagedReference",
@@ -17,9 +18,10 @@
       "output": {
         ".html": {
           "relative_path": "client/ClientLogic.Client.html",
-          "hash": "ysoB0eO5b+HIRWYFtQhitEgbu44DfAyLN/R60PTf9BQ="
+          "hash": "iFdMz81ioWF3Ms/ooTGmg/1g8uQnE5fzEMYVuw2RBeI="
         }
       },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -28,9 +30,10 @@
       "output": {
         ".html": {
           "relative_path": "client/ClientLogic.DataLibExtensions.InventoryClient.html",
-          "hash": "M1T6LYjs4yM0BLS7WbI6/YdM6w2CS7oqtWyx3KypPh0="
+          "hash": "YHGnAtYoOv5im7LceOC2/zmPkFCvl2W3WTBSOPHlTus="
         }
       },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -39,9 +42,10 @@
       "output": {
         ".html": {
           "relative_path": "client/ClientLogic.DataLibExtensions.InventoryItemArrayExtensions.html",
-          "hash": "HI5S1w8/bXlcwDLH3ae1wXCIYt0BrhXX90gHwo+6qUE="
+          "hash": "mjz0LRB0FjZEFoFvIriQv12YZTFDdqTpKfkO5rdFudM="
         }
       },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -53,6 +57,7 @@
           "hash": "KoqSYUzJbZDDJuNB45ly/di6tuKH+6typXx2zTebEOc="
         }
       },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -64,6 +69,7 @@
           "hash": "DuAE7MitAZ+e4W0vF2YeetKp685yhRsVTPoz9FhbuSI="
         }
       },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -75,6 +81,7 @@
           "hash": "hD6VRXt73Zut4FtuPVQ8isjPHzFz1UjuzKeghqWPsIA="
         }
       },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -83,9 +90,10 @@
       "output": {
         ".html": {
           "relative_path": "data/DataLib.Inventory.html",
-          "hash": "UwUT562A/s2pUpkLT4NPGyOVzRGThYTYdm7porXnJn8="
+          "hash": "gqwxBqGhx7Xz6/tA9iPtQMmHd76PtxceHzXS7dfIpns="
         }
       },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -94,9 +102,10 @@
       "output": {
         ".html": {
           "relative_path": "data/DataLib.RegisterUserResults.html",
-          "hash": "6PyeauPMNphXITTmO47fq+/29Ml4B51m3c2shfMPKm8="
+          "hash": "R2SsWG8VKjwSFA4ePJpLFgy+j/NQMHwzZN5Leb+3mS0="
         }
       },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -105,9 +114,10 @@
       "output": {
         ".html": {
           "relative_path": "data/DataLib.UserData.html",
-          "hash": "mFW1vYBo/RlDVIhK4VModSgJSRa/pMUjjBEq0jN4pY0="
+          "hash": "EwsgEuJGkRat0xQiGnaigy4iNUFWb2AeIbyuHZ02JE8="
         }
       },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -119,6 +129,7 @@
           "hash": "+tpIM6PKKFI0vNZy/ZbvVrB5jtaigmag4zykm+CS/Ws="
         }
       },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -130,6 +141,7 @@
           "hash": "tNlJACkbXPKdk4OBYLMjDjrM46lMu4sGJNUMwnZLld8="
         }
       },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -138,9 +150,10 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "+Gd9+3ah0u103j/qHnRKymAjRnC5oKHentR0anxO9V0="
+          "hash": "5H0tY3o2cKYuPZ9+DP4l9Fck7CAxTbpotsDUybMkxAs="
         }
       },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -149,9 +162,10 @@
       "output": {
         ".html": {
           "relative_path": "server/ServerApp.Database.DataLibContext.html",
-          "hash": "MtrzJRAMJqm4jOpjyROH0JMKeNGsA7T3b5trvepm8VU="
+          "hash": "zJZ2vPnuo70RYkPg1WwmnDah18cV4DwNBnbxtftT9G0="
         }
       },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -163,6 +177,7 @@
           "hash": "HCZH5aiGLT2ggKMYNULSr7+NIPzACOVjUOKrfCtYFxA="
         }
       },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -171,9 +186,10 @@
       "output": {
         ".html": {
           "relative_path": "server/ServerApp.Program.html",
-          "hash": "71OpBaZILVnbQrZm7s2VbtxU1l3MTDM/6bRo+d27U2A="
+          "hash": "/iGLYa0/tJcvpYgJhuXIoBBL2b6A+84vbSzD+kYpht0="
         }
       },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -185,6 +201,7 @@
           "hash": "h7rpup6NS6f1DzZrYKNf24qIhfzMo4yZhB4m5jwjurQ="
         }
       },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -196,6 +213,7 @@
           "hash": "/kd2ko34zbc7XaRt+jTs6pSEJ2BT1hdl4NRqrKflAqI="
         }
       },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -207,7 +225,51 @@
           "hash": "na4Sf8MjHdwIbXX5cBcKF/OFpYSfo4Iv/TcypfGmMc4="
         }
       },
+      "is_incremental": false,
       "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because config changed.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "ConfigChanged"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 1,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 13,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
     }
   ],
   "version_info": {},
