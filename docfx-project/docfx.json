@@ -34,9 +34,9 @@
     {
       "src": [
         {
-          "src": "../UnityClient/Assets/ClientLogic",
+          "src": "../UnityClient",
           "files": [
-            "**/*.cs"
+            "ClientLogic.csproj"
           ]
         }
       ],
@@ -86,7 +86,7 @@
     "fileMetadataFiles": [],
     "template": [ "default", "staticdoc" ],
     "xref": [
-        "https://nicoco007.github.io/UnityXRefMap/2022.2/xrefmap.yml"
+        "https://nicoco007.github.io/UnityXRefMap/2021.3/xrefmap.yml"
     ],
     "xrefService": [
         "https://xref.docs.microsoft.com/query?uid={uid}"

@@ -74,8 +74,8 @@ namespace ClientLogic {
         /// Method to be called in case of processing failure
         /// </param>
         /// <typeparam name="T">
-        /// 서버 응답으로 약속한 데이터 타입 (서버 앱과 <see cref="N:DataLib"/> 어셈블리 하위 유형만 약속함)<para/>
-        /// Data types promised in server response (promised only by server app and <see cref="N:DataLib"/> assembly subtype)
+        /// 서버 응답으로 약속한 데이터 타입 (서버 앱과 <see cref="DataLib"/> 어셈블리 하위 유형만 약속함)<para/>
+        /// Data types promised in server response (promised only by server app and <see cref="DataLib"/> assembly subtype)
         /// </typeparam>
         /// <returns></returns>
         private IEnumerator GetRequestAsync<T>(string url, Action<T> onSuccess, Action<T> onError = null) {
@@ -341,8 +341,8 @@ namespace ClientLogic {
         }
         
         /// <summary>
-        /// <see cref="InventoryClient"/>와 <see cref="T:DataLib.Inventory"/>간 데이터 처리를 통해 DataLib에서 약속한 데이터로 변환할 수 있는지 증명하는 코드입니다.<para/>
-        /// This code proves that data can be converted to the data promised by DataLib through data processing between <see cref="InventoryClient"/> and <see cref="T:DataLib.Inventory"/>.<para/>
+        /// <see cref="InventoryClient"/>와 <see cref="Inventory"/>간 데이터 처리를 통해 DataLib에서 약속한 데이터로 변환할 수 있는지 증명하는 코드입니다.<para/>
+        /// This code proves that data can be converted to the data promised by DataLib through data processing between <see cref="InventoryClient"/> and <see cref="Inventory"/>.<para/>
         /// </summary>
         [TriInspector.Button]
         private void TestConversationWrappingType() {

@@ -89,10 +89,38 @@ Data class of <a class="xref" href="../data/DataLib.Inventory.html">Inventory</a
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-    <div class="level1"><span class="xref">InventoryClient</span></div>
+    <div class="level1"><a class="xref" href="../data/DataLib.Inventory.html">Inventory</a></div>
+    <div class="level2"><span class="xref">InventoryClient</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="../data/DataLib.Inventory.html#DataLib_Inventory_ID">Inventory.ID</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode#system-object-gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype#system-object-gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone#system-object-memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals#system-object-referenceequals(system-object-system-object)">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring#system-object-tostring">object.ToString()</a>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="ClientLogic.html">ClientLogic</a>.<a class="xref" href="ClientLogic.DataLibExtensions.html">DataLibExtensions</a></h6>
-  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h6><strong>Assembly</strong>: ClientLogic.dll</h6>
   <h5 id="ClientLogic_DataLibExtensions_InventoryClient_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class InventoryClient : Inventory</code></pre>
@@ -100,17 +128,22 @@ Data class of <a class="xref" href="../data/DataLib.Inventory.html">Inventory</a
   <h5 id="ClientLogic_DataLibExtensions_InventoryClient_remarks"><strong>Remarks</strong></h5>
   <div class="markdown level0 remarks"><p>서버에서 사용하는 동일 타입의 데이터 클래스는 이를 모르기 때문에,
 새로 정의하는 필드 및 속성값은 필요한 경우가 아니라면 반드시 직렬화가 되지 않도록 만들어야 합니다.<p></p>
-자세한 내용은 <a class="xref" href="ClientLogic.Client.html#ClientLogic_Client_RegisterUser">RegisterUser()</a>의 주석을 확인하세요.<p></p>
+자세한 내용은 <span class="xref">ClientLogic.Client.RegisterUser</span>의 주석을 확인하세요.<p></p>
 Since the data classes of the same type used by the server do not know this,
 so newly defined field and property values must be made non-serializable unless necessary.<p></p>
-Check comments on <a class="xref" href="ClientLogic.Client.html#ClientLogic_Client_RegisterUser">RegisterUser()</a> for details.
+Check comments on <span class="xref">ClientLogic.Client.RegisterUser</span> for details.
 </div>
   <h3 id="constructors">Constructors
 </h3>
-
-
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Creta5164/aspnetcore-unity-share-model-study/new/main/apiSpec/new?filename=ClientLogic_DataLibExtensions_InventoryClient__ctor_DataLib_Inventory_.md&amp;value=---%0Auid%3A%20ClientLogic.DataLibExtensions.InventoryClient.%23ctor(DataLib.Inventory)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Creta5164/aspnetcore-unity-share-model-study/blob/main/UnityClient/Assets/ClientLogic/DataLibExtensions/InventoryExtensions.cs/#L54">View Source</a>
+  </span>
   <a id="ClientLogic_DataLibExtensions_InventoryClient__ctor_" data-uid="ClientLogic.DataLibExtensions.InventoryClient.#ctor*"></a>
-  <h4 id="ClientLogic_DataLibExtensions_InventoryClient__ctor_Inventory_" data-uid="ClientLogic.DataLibExtensions.InventoryClient.#ctor(Inventory)">InventoryClient(Inventory)</h4>
+  <h4 id="ClientLogic_DataLibExtensions_InventoryClient__ctor_DataLib_Inventory_" data-uid="ClientLogic.DataLibExtensions.InventoryClient.#ctor(DataLib.Inventory)">InventoryClient(Inventory)</h4>
   <div class="markdown level1 summary"><p>약속한 데이터 타입 <a class="xref" href="../data/DataLib.Inventory.html">Inventory</a>으로부터 데이터를 적용합니다.<p></p>
 Apply from the promised data type <a class="xref" href="../data/DataLib.Inventory.html">Inventory</a>.
 </div>
@@ -130,25 +163,30 @@ Apply from the promised data type <a class="xref" href="../data/DataLib.Inventor
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Inventory</span></td>
+        <td><a class="xref" href="../data/DataLib.Inventory.html">Inventory</a></td>
         <td><span class="parametername">source</span></td>
         <td><p>원본 데이터 / Source data</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 id="ClientLogic_DataLibExtensions_InventoryClient__ctor_Inventory__remarks">Remarks</h5>
+  <h5 id="ClientLogic_DataLibExtensions_InventoryClient__ctor_DataLib_Inventory__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>서버에서 사용하는 동일 타입의 데이터 클래스는 이를 모르기 때문에,
 새로 정의하는 필드 및 속성값은 필요한 경우가 아니라면 반드시 직렬화가 되지 않도록 만들어야 합니다.<p></p>
-자세한 내용은 <a class="xref" href="ClientLogic.Client.html#ClientLogic_Client_RegisterUser">RegisterUser()</a>의 주석을 확인하세요.<p></p>
+자세한 내용은 <span class="xref">ClientLogic.Client.RegisterUser</span>의 주석을 확인하세요.<p></p>
 Since the data classes of the same type used by the server do not know this,
 so newly defined field and property values must be made non-serializable unless necessary.<p></p>
-Check comments on <a class="xref" href="ClientLogic.Client.html#ClientLogic_Client_RegisterUser">RegisterUser()</a> for details.
+Check comments on <span class="xref">ClientLogic.Client.RegisterUser</span> for details.
 </div>
   <h3 id="properties">Properties
 </h3>
-
-
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Creta5164/aspnetcore-unity-share-model-study/new/main/apiSpec/new?filename=ClientLogic_DataLibExtensions_InventoryClient_Items.md&amp;value=---%0Auid%3A%20ClientLogic.DataLibExtensions.InventoryClient.Items%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Creta5164/aspnetcore-unity-share-model-study/blob/main/UnityClient/Assets/ClientLogic/DataLibExtensions/InventoryExtensions.cs/#L70">View Source</a>
+  </span>
   <a id="ClientLogic_DataLibExtensions_InventoryClient_Items_" data-uid="ClientLogic.DataLibExtensions.InventoryClient.Items*"></a>
   <h4 id="ClientLogic_DataLibExtensions_InventoryClient_Items" data-uid="ClientLogic.DataLibExtensions.InventoryClient.Items">Items</h4>
   <div class="markdown level1 summary"><p><a class="xref" href="../data/DataLib.Inventory.html#DataLib_Inventory_Items">Items</a> 속성을 JSON 직렬화/역직렬화로 재정의한 속성입니다.<p></p>
@@ -157,7 +195,8 @@ Overriding the <a class="xref" href="../data/DataLib.Inventory.html#DataLib_Inve
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string[] Items { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonIgnore]
+public string[] Items { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -179,82 +218,13 @@ Overriding the <a class="xref" href="../data/DataLib.Inventory.html#DataLib_Inve
   <h5 id="ClientLogic_DataLibExtensions_InventoryClient_Items_remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p><a href="https://www.newtonsoft.com/json/help/html/SerializationCallbacks.htm">https://www.newtonsoft.com/json/help/html/SerializationCallbacks.htm</a></p>
 </div>
-  <h3 id="methods">Methods
-</h3>
-
-
-  <a id="ClientLogic_DataLibExtensions_InventoryClient_OnDeserializedMethod_" data-uid="ClientLogic.DataLibExtensions.InventoryClient.OnDeserializedMethod*"></a>
-  <h4 id="ClientLogic_DataLibExtensions_InventoryClient_OnDeserializedMethod_StreamingContext_" data-uid="ClientLogic.DataLibExtensions.InventoryClient.OnDeserializedMethod(StreamingContext)">OnDeserializedMethod(StreamingContext)</h4>
-  <div class="markdown level1 summary"><p>Newtonsoft.Json에서 <a class="xref" href="../data/DataLib.Inventory.html">Inventory</a>를 역직렬화 할 때,
-JSON으로 직렬화 되어있는(약속한 타입) <a class="xref" href="../data/DataLib.Inventory.html#DataLib_Inventory_Items">Items</a> 문자열을 <span class="xref">DataLib.InventoryClient.Items</span>에 역직렬화하여 넣습니다.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void OnDeserializedMethod(StreamingContext context)</code></pre>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="ClientLogic.DataLibExtensions.InventoryItemArrayExtensions.html#ClientLogic_DataLibExtensions_InventoryItemArrayExtensions_GetItems_DataLib_Inventory_">InventoryItemArrayExtensions.GetItems(Inventory)</a>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">StreamingContext</span></td>
-        <td><span class="parametername">context</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="ClientLogic_DataLibExtensions_InventoryClient_OnDeserializedMethod_StreamingContext__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>서버에서 사용하는 동일 타입의 데이터 클래스는 이를 모르기 때문에,
-새로 정의하는 필드 및 속성값은 필요한 경우가 아니라면 반드시 직렬화가 되지 않도록 만들어야 합니다.<p></p>
-자세한 내용은 <a class="xref" href="ClientLogic.Client.html#ClientLogic_Client_RegisterUser">RegisterUser()</a>의 주석을 확인하세요.<p></p>
-Since the data classes of the same type used by the server do not know this,
-so newly defined field and property values must be made non-serializable unless necessary.<p></p>
-Check comments on <a class="xref" href="ClientLogic.Client.html#ClientLogic_Client_RegisterUser">RegisterUser()</a> for details.
-</div>
-
-
-  <a id="ClientLogic_DataLibExtensions_InventoryClient_OnSerializingMethod_" data-uid="ClientLogic.DataLibExtensions.InventoryClient.OnSerializingMethod*"></a>
-  <h4 id="ClientLogic_DataLibExtensions_InventoryClient_OnSerializingMethod_StreamingContext_" data-uid="ClientLogic.DataLibExtensions.InventoryClient.OnSerializingMethod(StreamingContext)">OnSerializingMethod(StreamingContext)</h4>
-  <div class="markdown level1 summary"><p>Newtonsoft.Json에서 <span class="xref">DataLib.InventoryClient</span>를 직렬화 할 때,
-<span class="xref">DataLib.InventoryClient.Items</span>배열을 <a class="xref" href="../data/DataLib.Inventory.html#DataLib_Inventory_Items">Items</a>에 직렬화하여 넣습니다.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void OnSerializingMethod(StreamingContext context)</code></pre>
+  <div>
+      <a class="xref" href="ClientLogic.DataLibExtensions.InventoryItemArrayExtensions.html#ClientLogic_DataLibExtensions_InventoryItemArrayExtensions_SetItems_DataLib_Inventory_System_String___">InventoryItemArrayExtensions.SetItems(Inventory, string[])</a>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">StreamingContext</span></td>
-        <td><span class="parametername">context</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="ClientLogic_DataLibExtensions_InventoryClient_OnSerializingMethod_StreamingContext__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>서버에서 사용하는 동일 타입의 데이터 클래스는 이를 모르기 때문에,
-새로 정의하는 필드 및 속성값은 필요한 경우가 아니라면 반드시 직렬화가 되지 않도록 만들어야 합니다.<p></p>
-자세한 내용은 <a class="xref" href="ClientLogic.Client.html#ClientLogic_Client_RegisterUser">RegisterUser()</a>의 주석을 확인하세요.<p></p>
-Since the data classes of the same type used by the server do not know this,
-so newly defined field and property values must be made non-serializable unless necessary.<p></p>
-Check comments on <a class="xref" href="ClientLogic.Client.html#ClientLogic_Client_RegisterUser">RegisterUser()</a> for details.
-</div>
 </article>
           </div>
 
@@ -262,6 +232,12 @@ Check comments on <a class="xref" href="ClientLogic.Client.html#ClientLogic_Clie
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Creta5164/aspnetcore-unity-share-model-study/new/main/apiSpec/new?filename=ClientLogic_DataLibExtensions_InventoryClient.md&amp;value=---%0Auid%3A%20ClientLogic.DataLibExtensions.InventoryClient%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/Creta5164/aspnetcore-unity-share-model-study/blob/main/UnityClient/Assets/ClientLogic/DataLibExtensions/InventoryExtensions.cs/#L47" class="contribution-link">View Source</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

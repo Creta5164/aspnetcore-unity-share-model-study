@@ -13,93 +13,6 @@ references:
   commentId: T:ClientLogic.Client
   fullName: ClientLogic.Client
   nameWithType: Client
-- uid: ClientLogic.Client.currentRequest
-  name: currentRequest
-  href: client/ClientLogic.Client.html#ClientLogic_Client_currentRequest
-  commentId: F:ClientLogic.Client.currentRequest
-  fullName: ClientLogic.Client.currentRequest
-  nameWithType: Client.currentRequest
-- uid: ClientLogic.Client.GetAllUsers_WithExtension
-  name: GetAllUsers_WithExtension()
-  href: client/ClientLogic.Client.html#ClientLogic_Client_GetAllUsers_WithExtension
-  commentId: M:ClientLogic.Client.GetAllUsers_WithExtension
-  fullName: ClientLogic.Client.GetAllUsers_WithExtension()
-  nameWithType: Client.GetAllUsers_WithExtension()
-- uid: ClientLogic.Client.GetAllUsers_WithExtension*
-  name: GetAllUsers_WithExtension
-  href: client/ClientLogic.Client.html#ClientLogic_Client_GetAllUsers_WithExtension_
-  commentId: Overload:ClientLogic.Client.GetAllUsers_WithExtension
-  isSpec: "True"
-  fullName: ClientLogic.Client.GetAllUsers_WithExtension
-  nameWithType: Client.GetAllUsers_WithExtension
-- uid: ClientLogic.Client.GetAllUsers_WithWrapperType
-  name: GetAllUsers_WithWrapperType()
-  href: client/ClientLogic.Client.html#ClientLogic_Client_GetAllUsers_WithWrapperType
-  commentId: M:ClientLogic.Client.GetAllUsers_WithWrapperType
-  fullName: ClientLogic.Client.GetAllUsers_WithWrapperType()
-  nameWithType: Client.GetAllUsers_WithWrapperType()
-- uid: ClientLogic.Client.GetAllUsers_WithWrapperType*
-  name: GetAllUsers_WithWrapperType
-  href: client/ClientLogic.Client.html#ClientLogic_Client_GetAllUsers_WithWrapperType_
-  commentId: Overload:ClientLogic.Client.GetAllUsers_WithWrapperType
-  isSpec: "True"
-  fullName: ClientLogic.Client.GetAllUsers_WithWrapperType
-  nameWithType: Client.GetAllUsers_WithWrapperType
-- uid: ClientLogic.Client.GetRequestAsync*
-  name: GetRequestAsync
-  href: client/ClientLogic.Client.html#ClientLogic_Client_GetRequestAsync_
-  commentId: Overload:ClientLogic.Client.GetRequestAsync
-  isSpec: "True"
-  fullName: ClientLogic.Client.GetRequestAsync
-  nameWithType: Client.GetRequestAsync
-- uid: ClientLogic.Client.GetRequestAsync``1(System.String,System.Action{``0},System.Action{``0})
-  name: GetRequestAsync<T>(string, Action<T>, Action<T>)
-  href: client/ClientLogic.Client.html#ClientLogic_Client_GetRequestAsync__1_System_String_System_Action___0__System_Action___0__
-  commentId: M:ClientLogic.Client.GetRequestAsync``1(System.String,System.Action{``0},System.Action{``0})
-  name.vb: GetRequestAsync(Of T)(String, Action(Of T), Action(Of T))
-  fullName: ClientLogic.Client.GetRequestAsync<T>(string, System.Action<T>, System.Action<T>)
-  fullName.vb: ClientLogic.Client.GetRequestAsync(Of T)(String, System.Action(Of T), System.Action(Of T))
-  nameWithType: Client.GetRequestAsync<T>(string, Action<T>, Action<T>)
-  nameWithType.vb: Client.GetRequestAsync(Of T)(String, Action(Of T), Action(Of T))
-- uid: ClientLogic.Client.GetUser_WithExtension
-  name: GetUser_WithExtension()
-  href: client/ClientLogic.Client.html#ClientLogic_Client_GetUser_WithExtension
-  commentId: M:ClientLogic.Client.GetUser_WithExtension
-  fullName: ClientLogic.Client.GetUser_WithExtension()
-  nameWithType: Client.GetUser_WithExtension()
-- uid: ClientLogic.Client.GetUser_WithExtension*
-  name: GetUser_WithExtension
-  href: client/ClientLogic.Client.html#ClientLogic_Client_GetUser_WithExtension_
-  commentId: Overload:ClientLogic.Client.GetUser_WithExtension
-  isSpec: "True"
-  fullName: ClientLogic.Client.GetUser_WithExtension
-  nameWithType: Client.GetUser_WithExtension
-- uid: ClientLogic.Client.GetUser_WithWrapperType
-  name: GetUser_WithWrapperType()
-  href: client/ClientLogic.Client.html#ClientLogic_Client_GetUser_WithWrapperType
-  commentId: M:ClientLogic.Client.GetUser_WithWrapperType
-  fullName: ClientLogic.Client.GetUser_WithWrapperType()
-  nameWithType: Client.GetUser_WithWrapperType()
-- uid: ClientLogic.Client.GetUser_WithWrapperType*
-  name: GetUser_WithWrapperType
-  href: client/ClientLogic.Client.html#ClientLogic_Client_GetUser_WithWrapperType_
-  commentId: Overload:ClientLogic.Client.GetUser_WithWrapperType
-  isSpec: "True"
-  fullName: ClientLogic.Client.GetUser_WithWrapperType
-  nameWithType: Client.GetUser_WithWrapperType
-- uid: ClientLogic.Client.IsRequestRunning
-  name: IsRequestRunning()
-  href: client/ClientLogic.Client.html#ClientLogic_Client_IsRequestRunning
-  commentId: M:ClientLogic.Client.IsRequestRunning
-  fullName: ClientLogic.Client.IsRequestRunning()
-  nameWithType: Client.IsRequestRunning()
-- uid: ClientLogic.Client.IsRequestRunning*
-  name: IsRequestRunning
-  href: client/ClientLogic.Client.html#ClientLogic_Client_IsRequestRunning_
-  commentId: Overload:ClientLogic.Client.IsRequestRunning
-  isSpec: "True"
-  fullName: ClientLogic.Client.IsRequestRunning
-  nameWithType: Client.IsRequestRunning
 - uid: ClientLogic.Client.newUserLevel
   name: newUserLevel
   href: client/ClientLogic.Client.html#ClientLogic_Client_newUserLevel
@@ -118,32 +31,6 @@ references:
   commentId: F:ClientLogic.Client.newUserRandomItemCount
   fullName: ClientLogic.Client.newUserRandomItemCount
   nameWithType: Client.newUserRandomItemCount
-- uid: ClientLogic.Client.OnRegisterUserResult(System.Nullable{RegisterUserResults})
-  name: OnRegisterUserResult(RegisterUserResults?)
-  href: client/ClientLogic.Client.html#ClientLogic_Client_OnRegisterUserResult_System_Nullable_RegisterUserResults__
-  commentId: M:ClientLogic.Client.OnRegisterUserResult(System.Nullable{RegisterUserResults})
-  fullName: ClientLogic.Client.OnRegisterUserResult(RegisterUserResults?)
-  nameWithType: Client.OnRegisterUserResult(RegisterUserResults?)
-- uid: ClientLogic.Client.OnRegisterUserResult*
-  name: OnRegisterUserResult
-  href: client/ClientLogic.Client.html#ClientLogic_Client_OnRegisterUserResult_
-  commentId: Overload:ClientLogic.Client.OnRegisterUserResult
-  isSpec: "True"
-  fullName: ClientLogic.Client.OnRegisterUserResult
-  nameWithType: Client.OnRegisterUserResult
-- uid: ClientLogic.Client.RegisterUser
-  name: RegisterUser()
-  href: client/ClientLogic.Client.html#ClientLogic_Client_RegisterUser
-  commentId: M:ClientLogic.Client.RegisterUser
-  fullName: ClientLogic.Client.RegisterUser()
-  nameWithType: Client.RegisterUser()
-- uid: ClientLogic.Client.RegisterUser*
-  name: RegisterUser
-  href: client/ClientLogic.Client.html#ClientLogic_Client_RegisterUser_
-  commentId: Overload:ClientLogic.Client.RegisterUser
-  isSpec: "True"
-  fullName: ClientLogic.Client.RegisterUser
-  nameWithType: Client.RegisterUser
 - uid: ClientLogic.Client.serverUrl
   name: serverUrl
   href: client/ClientLogic.Client.html#ClientLogic_Client_serverUrl
@@ -157,83 +44,12 @@ references:
   isSpec: "True"
   fullName: ClientLogic.Client.serverUrl
   nameWithType: Client.serverUrl
-- uid: ClientLogic.Client.ShowAllUsersWithExtension(UserData[])
-  name: ShowAllUsersWithExtension(UserData[])
-  href: client/ClientLogic.Client.html#ClientLogic_Client_ShowAllUsersWithExtension_UserData___
-  commentId: M:ClientLogic.Client.ShowAllUsersWithExtension(UserData[])
-  name.vb: ShowAllUsersWithExtension(UserData())
-  fullName: ClientLogic.Client.ShowAllUsersWithExtension(UserData[])
-  fullName.vb: ClientLogic.Client.ShowAllUsersWithExtension(UserData())
-  nameWithType: Client.ShowAllUsersWithExtension(UserData[])
-  nameWithType.vb: Client.ShowAllUsersWithExtension(UserData())
-- uid: ClientLogic.Client.ShowAllUsersWithExtension*
-  name: ShowAllUsersWithExtension
-  href: client/ClientLogic.Client.html#ClientLogic_Client_ShowAllUsersWithExtension_
-  commentId: Overload:ClientLogic.Client.ShowAllUsersWithExtension
-  isSpec: "True"
-  fullName: ClientLogic.Client.ShowAllUsersWithExtension
-  nameWithType: Client.ShowAllUsersWithExtension
-- uid: ClientLogic.Client.ShowAllUsersWithWrapperType(UserData[])
-  name: ShowAllUsersWithWrapperType(UserData[])
-  href: client/ClientLogic.Client.html#ClientLogic_Client_ShowAllUsersWithWrapperType_UserData___
-  commentId: M:ClientLogic.Client.ShowAllUsersWithWrapperType(UserData[])
-  name.vb: ShowAllUsersWithWrapperType(UserData())
-  fullName: ClientLogic.Client.ShowAllUsersWithWrapperType(UserData[])
-  fullName.vb: ClientLogic.Client.ShowAllUsersWithWrapperType(UserData())
-  nameWithType: Client.ShowAllUsersWithWrapperType(UserData[])
-  nameWithType.vb: Client.ShowAllUsersWithWrapperType(UserData())
-- uid: ClientLogic.Client.ShowAllUsersWithWrapperType*
-  name: ShowAllUsersWithWrapperType
-  href: client/ClientLogic.Client.html#ClientLogic_Client_ShowAllUsersWithWrapperType_
-  commentId: Overload:ClientLogic.Client.ShowAllUsersWithWrapperType
-  isSpec: "True"
-  fullName: ClientLogic.Client.ShowAllUsersWithWrapperType
-  nameWithType: Client.ShowAllUsersWithWrapperType
-- uid: ClientLogic.Client.ShowUserInfoWithExtension(UserData)
-  name: ShowUserInfoWithExtension(UserData)
-  href: client/ClientLogic.Client.html#ClientLogic_Client_ShowUserInfoWithExtension_UserData_
-  commentId: M:ClientLogic.Client.ShowUserInfoWithExtension(UserData)
-  fullName: ClientLogic.Client.ShowUserInfoWithExtension(UserData)
-  nameWithType: Client.ShowUserInfoWithExtension(UserData)
-- uid: ClientLogic.Client.ShowUserInfoWithExtension*
-  name: ShowUserInfoWithExtension
-  href: client/ClientLogic.Client.html#ClientLogic_Client_ShowUserInfoWithExtension_
-  commentId: Overload:ClientLogic.Client.ShowUserInfoWithExtension
-  isSpec: "True"
-  fullName: ClientLogic.Client.ShowUserInfoWithExtension
-  nameWithType: Client.ShowUserInfoWithExtension
-- uid: ClientLogic.Client.ShowUserInfoWithWrapperType(UserData)
-  name: ShowUserInfoWithWrapperType(UserData)
-  href: client/ClientLogic.Client.html#ClientLogic_Client_ShowUserInfoWithWrapperType_UserData_
-  commentId: M:ClientLogic.Client.ShowUserInfoWithWrapperType(UserData)
-  fullName: ClientLogic.Client.ShowUserInfoWithWrapperType(UserData)
-  nameWithType: Client.ShowUserInfoWithWrapperType(UserData)
-- uid: ClientLogic.Client.ShowUserInfoWithWrapperType*
-  name: ShowUserInfoWithWrapperType
-  href: client/ClientLogic.Client.html#ClientLogic_Client_ShowUserInfoWithWrapperType_
-  commentId: Overload:ClientLogic.Client.ShowUserInfoWithWrapperType
-  isSpec: "True"
-  fullName: ClientLogic.Client.ShowUserInfoWithWrapperType
-  nameWithType: Client.ShowUserInfoWithWrapperType
 - uid: ClientLogic.Client.targetUserName
   name: targetUserName
   href: client/ClientLogic.Client.html#ClientLogic_Client_targetUserName
   commentId: F:ClientLogic.Client.targetUserName
   fullName: ClientLogic.Client.targetUserName
   nameWithType: Client.targetUserName
-- uid: ClientLogic.Client.TestConversationWrappingType
-  name: TestConversationWrappingType()
-  href: client/ClientLogic.Client.html#ClientLogic_Client_TestConversationWrappingType
-  commentId: M:ClientLogic.Client.TestConversationWrappingType
-  fullName: ClientLogic.Client.TestConversationWrappingType()
-  nameWithType: Client.TestConversationWrappingType()
-- uid: ClientLogic.Client.TestConversationWrappingType*
-  name: TestConversationWrappingType
-  href: client/ClientLogic.Client.html#ClientLogic_Client_TestConversationWrappingType_
-  commentId: Overload:ClientLogic.Client.TestConversationWrappingType
-  isSpec: "True"
-  fullName: ClientLogic.Client.TestConversationWrappingType
-  nameWithType: Client.TestConversationWrappingType
 - uid: ClientLogic.DataLibExtensions
   name: ClientLogic.DataLibExtensions
   href: client/ClientLogic.DataLibExtensions.html
@@ -246,13 +62,13 @@ references:
   commentId: T:ClientLogic.DataLibExtensions.InventoryClient
   fullName: ClientLogic.DataLibExtensions.InventoryClient
   nameWithType: InventoryClient
-- uid: ClientLogic.DataLibExtensions.InventoryClient.#ctor(Inventory)
+- uid: ClientLogic.DataLibExtensions.InventoryClient.#ctor(DataLib.Inventory)
   name: InventoryClient(Inventory)
-  href: client/ClientLogic.DataLibExtensions.InventoryClient.html#ClientLogic_DataLibExtensions_InventoryClient__ctor_Inventory_
-  commentId: M:ClientLogic.DataLibExtensions.InventoryClient.#ctor(Inventory)
+  href: client/ClientLogic.DataLibExtensions.InventoryClient.html#ClientLogic_DataLibExtensions_InventoryClient__ctor_DataLib_Inventory_
+  commentId: M:ClientLogic.DataLibExtensions.InventoryClient.#ctor(DataLib.Inventory)
   name.vb: New(Inventory)
-  fullName: ClientLogic.DataLibExtensions.InventoryClient.InventoryClient(Inventory)
-  fullName.vb: ClientLogic.DataLibExtensions.InventoryClient.New(Inventory)
+  fullName: ClientLogic.DataLibExtensions.InventoryClient.InventoryClient(DataLib.Inventory)
+  fullName.vb: ClientLogic.DataLibExtensions.InventoryClient.New(DataLib.Inventory)
   nameWithType: InventoryClient.InventoryClient(Inventory)
   nameWithType.vb: InventoryClient.New(Inventory)
 - uid: ClientLogic.DataLibExtensions.InventoryClient.#ctor*
@@ -278,43 +94,17 @@ references:
   isSpec: "True"
   fullName: ClientLogic.DataLibExtensions.InventoryClient.Items
   nameWithType: InventoryClient.Items
-- uid: ClientLogic.DataLibExtensions.InventoryClient.OnDeserializedMethod(StreamingContext)
-  name: OnDeserializedMethod(StreamingContext)
-  href: client/ClientLogic.DataLibExtensions.InventoryClient.html#ClientLogic_DataLibExtensions_InventoryClient_OnDeserializedMethod_StreamingContext_
-  commentId: M:ClientLogic.DataLibExtensions.InventoryClient.OnDeserializedMethod(StreamingContext)
-  fullName: ClientLogic.DataLibExtensions.InventoryClient.OnDeserializedMethod(StreamingContext)
-  nameWithType: InventoryClient.OnDeserializedMethod(StreamingContext)
-- uid: ClientLogic.DataLibExtensions.InventoryClient.OnDeserializedMethod*
-  name: OnDeserializedMethod
-  href: client/ClientLogic.DataLibExtensions.InventoryClient.html#ClientLogic_DataLibExtensions_InventoryClient_OnDeserializedMethod_
-  commentId: Overload:ClientLogic.DataLibExtensions.InventoryClient.OnDeserializedMethod
-  isSpec: "True"
-  fullName: ClientLogic.DataLibExtensions.InventoryClient.OnDeserializedMethod
-  nameWithType: InventoryClient.OnDeserializedMethod
-- uid: ClientLogic.DataLibExtensions.InventoryClient.OnSerializingMethod(StreamingContext)
-  name: OnSerializingMethod(StreamingContext)
-  href: client/ClientLogic.DataLibExtensions.InventoryClient.html#ClientLogic_DataLibExtensions_InventoryClient_OnSerializingMethod_StreamingContext_
-  commentId: M:ClientLogic.DataLibExtensions.InventoryClient.OnSerializingMethod(StreamingContext)
-  fullName: ClientLogic.DataLibExtensions.InventoryClient.OnSerializingMethod(StreamingContext)
-  nameWithType: InventoryClient.OnSerializingMethod(StreamingContext)
-- uid: ClientLogic.DataLibExtensions.InventoryClient.OnSerializingMethod*
-  name: OnSerializingMethod
-  href: client/ClientLogic.DataLibExtensions.InventoryClient.html#ClientLogic_DataLibExtensions_InventoryClient_OnSerializingMethod_
-  commentId: Overload:ClientLogic.DataLibExtensions.InventoryClient.OnSerializingMethod
-  isSpec: "True"
-  fullName: ClientLogic.DataLibExtensions.InventoryClient.OnSerializingMethod
-  nameWithType: InventoryClient.OnSerializingMethod
 - uid: ClientLogic.DataLibExtensions.InventoryItemArrayExtensions
   name: InventoryItemArrayExtensions
   href: client/ClientLogic.DataLibExtensions.InventoryItemArrayExtensions.html
   commentId: T:ClientLogic.DataLibExtensions.InventoryItemArrayExtensions
   fullName: ClientLogic.DataLibExtensions.InventoryItemArrayExtensions
   nameWithType: InventoryItemArrayExtensions
-- uid: ClientLogic.DataLibExtensions.InventoryItemArrayExtensions.GetItems(Inventory)
+- uid: ClientLogic.DataLibExtensions.InventoryItemArrayExtensions.GetItems(DataLib.Inventory)
   name: GetItems(Inventory)
-  href: client/ClientLogic.DataLibExtensions.InventoryItemArrayExtensions.html#ClientLogic_DataLibExtensions_InventoryItemArrayExtensions_GetItems_Inventory_
-  commentId: M:ClientLogic.DataLibExtensions.InventoryItemArrayExtensions.GetItems(Inventory)
-  fullName: ClientLogic.DataLibExtensions.InventoryItemArrayExtensions.GetItems(Inventory)
+  href: client/ClientLogic.DataLibExtensions.InventoryItemArrayExtensions.html#ClientLogic_DataLibExtensions_InventoryItemArrayExtensions_GetItems_DataLib_Inventory_
+  commentId: M:ClientLogic.DataLibExtensions.InventoryItemArrayExtensions.GetItems(DataLib.Inventory)
+  fullName: ClientLogic.DataLibExtensions.InventoryItemArrayExtensions.GetItems(DataLib.Inventory)
   nameWithType: InventoryItemArrayExtensions.GetItems(Inventory)
 - uid: ClientLogic.DataLibExtensions.InventoryItemArrayExtensions.GetItems*
   name: GetItems
@@ -323,13 +113,13 @@ references:
   isSpec: "True"
   fullName: ClientLogic.DataLibExtensions.InventoryItemArrayExtensions.GetItems
   nameWithType: InventoryItemArrayExtensions.GetItems
-- uid: ClientLogic.DataLibExtensions.InventoryItemArrayExtensions.SetItems(Inventory,System.String[])
+- uid: ClientLogic.DataLibExtensions.InventoryItemArrayExtensions.SetItems(DataLib.Inventory,System.String[])
   name: SetItems(Inventory, string[])
-  href: client/ClientLogic.DataLibExtensions.InventoryItemArrayExtensions.html#ClientLogic_DataLibExtensions_InventoryItemArrayExtensions_SetItems_Inventory_System_String___
-  commentId: M:ClientLogic.DataLibExtensions.InventoryItemArrayExtensions.SetItems(Inventory,System.String[])
+  href: client/ClientLogic.DataLibExtensions.InventoryItemArrayExtensions.html#ClientLogic_DataLibExtensions_InventoryItemArrayExtensions_SetItems_DataLib_Inventory_System_String___
+  commentId: M:ClientLogic.DataLibExtensions.InventoryItemArrayExtensions.SetItems(DataLib.Inventory,System.String[])
   name.vb: SetItems(Inventory, String())
-  fullName: ClientLogic.DataLibExtensions.InventoryItemArrayExtensions.SetItems(Inventory, string[])
-  fullName.vb: ClientLogic.DataLibExtensions.InventoryItemArrayExtensions.SetItems(Inventory, String())
+  fullName: ClientLogic.DataLibExtensions.InventoryItemArrayExtensions.SetItems(DataLib.Inventory, string[])
+  fullName.vb: ClientLogic.DataLibExtensions.InventoryItemArrayExtensions.SetItems(DataLib.Inventory, String())
   nameWithType: InventoryItemArrayExtensions.SetItems(Inventory, string[])
   nameWithType.vb: InventoryItemArrayExtensions.SetItems(Inventory, String())
 - uid: ClientLogic.DataLibExtensions.InventoryItemArrayExtensions.SetItems*
@@ -528,41 +318,6 @@ references:
   commentId: T:ServerApp.Program
   fullName: ServerApp.Program
   nameWithType: Program
-- uid: ServerApp.Program.dummyItemsData
-  name: dummyItemsData
-  href: server/ServerApp.Program.html#ServerApp_Program_dummyItemsData
-  commentId: F:ServerApp.Program.dummyItemsData
-  fullName: ServerApp.Program.dummyItemsData
-  nameWithType: Program.dummyItemsData
-- uid: ServerApp.Program.GetAllUsers(ServerApp.Database.DataLibContext)
-  name: GetAllUsers(DataLibContext)
-  href: server/ServerApp.Program.html#ServerApp_Program_GetAllUsers_ServerApp_Database_DataLibContext_
-  commentId: M:ServerApp.Program.GetAllUsers(ServerApp.Database.DataLibContext)
-  fullName: ServerApp.Program.GetAllUsers(ServerApp.Database.DataLibContext)
-  nameWithType: Program.GetAllUsers(DataLibContext)
-- uid: ServerApp.Program.GetAllUsers*
-  name: GetAllUsers
-  href: server/ServerApp.Program.html#ServerApp_Program_GetAllUsers_
-  commentId: Overload:ServerApp.Program.GetAllUsers
-  isSpec: "True"
-  fullName: ServerApp.Program.GetAllUsers
-  nameWithType: Program.GetAllUsers
-- uid: ServerApp.Program.GetUserByName(ServerApp.Database.DataLibContext,System.String)
-  name: GetUserByName(DataLibContext, string)
-  href: server/ServerApp.Program.html#ServerApp_Program_GetUserByName_ServerApp_Database_DataLibContext_System_String_
-  commentId: M:ServerApp.Program.GetUserByName(ServerApp.Database.DataLibContext,System.String)
-  name.vb: GetUserByName(DataLibContext, String)
-  fullName: ServerApp.Program.GetUserByName(ServerApp.Database.DataLibContext, string)
-  fullName.vb: ServerApp.Program.GetUserByName(ServerApp.Database.DataLibContext, String)
-  nameWithType: Program.GetUserByName(DataLibContext, string)
-  nameWithType.vb: Program.GetUserByName(DataLibContext, String)
-- uid: ServerApp.Program.GetUserByName*
-  name: GetUserByName
-  href: server/ServerApp.Program.html#ServerApp_Program_GetUserByName_
-  commentId: Overload:ServerApp.Program.GetUserByName
-  isSpec: "True"
-  fullName: ServerApp.Program.GetUserByName
-  nameWithType: Program.GetUserByName
 - uid: ServerApp.Program.Main(System.String[])
   name: Main(string[])
   href: server/ServerApp.Program.html#ServerApp_Program_Main_System_String___
@@ -579,35 +334,3 @@ references:
   isSpec: "True"
   fullName: ServerApp.Program.Main
   nameWithType: Program.Main
-- uid: ServerApp.Program.OnRegisterUser(ServerApp.Database.DataLibContext,System.String,System.UInt32,System.Int32)
-  name: OnRegisterUser(DataLibContext, string, uint, int)
-  href: server/ServerApp.Program.html#ServerApp_Program_OnRegisterUser_ServerApp_Database_DataLibContext_System_String_System_UInt32_System_Int32_
-  commentId: M:ServerApp.Program.OnRegisterUser(ServerApp.Database.DataLibContext,System.String,System.UInt32,System.Int32)
-  name.vb: OnRegisterUser(DataLibContext, String, UInteger, Integer)
-  fullName: ServerApp.Program.OnRegisterUser(ServerApp.Database.DataLibContext, string, uint, int)
-  fullName.vb: ServerApp.Program.OnRegisterUser(ServerApp.Database.DataLibContext, String, UInteger, Integer)
-  nameWithType: Program.OnRegisterUser(DataLibContext, string, uint, int)
-  nameWithType.vb: Program.OnRegisterUser(DataLibContext, String, UInteger, Integer)
-- uid: ServerApp.Program.OnRegisterUser*
-  name: OnRegisterUser
-  href: server/ServerApp.Program.html#ServerApp_Program_OnRegisterUser_
-  commentId: Overload:ServerApp.Program.OnRegisterUser
-  isSpec: "True"
-  fullName: ServerApp.Program.OnRegisterUser
-  nameWithType: Program.OnRegisterUser
-- uid: ServerApp.Program.TestInventory(System.Int32)
-  name: TestInventory(int)
-  href: server/ServerApp.Program.html#ServerApp_Program_TestInventory_System_Int32_
-  commentId: M:ServerApp.Program.TestInventory(System.Int32)
-  name.vb: TestInventory(Integer)
-  fullName: ServerApp.Program.TestInventory(int)
-  fullName.vb: ServerApp.Program.TestInventory(Integer)
-  nameWithType: Program.TestInventory(int)
-  nameWithType.vb: Program.TestInventory(Integer)
-- uid: ServerApp.Program.TestInventory*
-  name: TestInventory
-  href: server/ServerApp.Program.html#ServerApp_Program_TestInventory_
-  commentId: Overload:ServerApp.Program.TestInventory
-  isSpec: "True"
-  fullName: ServerApp.Program.TestInventory
-  nameWithType: Program.TestInventory
